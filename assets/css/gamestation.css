@@ -1,0 +1,69 @@
+body {
+	font-family: lato;
+}
+
+h2, h4, h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: tomorrow;
+	color: white;
+}
+
+h2 {
+	font-size: 80px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.homepage-background {
+	background: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(".images/switch.jpg") no-repeat fixed center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.btn-gsprimary,
+.btn-gsprimary:hover,
+.btn-gsprimary:focus,
+.btn-gsprimary:visited {
+	background-color: #17C3F6;
+	color: white;
+	border-color: #17C3F6;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	border-radius: 50px;
+}
+
+.navbar-nav .nav-item.nav-link,
+.navbar-nav .nav-item.nav-link:hover,
+.navbar-nav .nav-item.nav-link:focus {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.whatIs {
+	padding: 60px;
+}
+
+.whatIs h3{
+	color: black;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.whatIs h4{
+	color: black;
+}
+
+.links {
+	padding: 60px;
+	background: #0C1A31;
+	color: white;
+	text-align: center;
+	letter-spacing: 15px;
+}
