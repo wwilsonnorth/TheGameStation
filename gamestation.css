@@ -60,12 +60,7 @@ h4 {
 
 #about {
 	padding: 60px;
-}
-
-.features {
 	text-align: center;
-	width: 33.33%;
-	padding: 10px 10px;
 }
 
 .fa-gamepad {
@@ -86,19 +81,6 @@ h4 {
 #gallery {
 	padding-bottom: 80px;
 }
-
-/* #gallery img {
-	opacity: .75;
-	transition: all .5s ease-in-out;
-	display: inline-block;
-	margin-bottom: 30px;
-	margin-top: 30px;
-	width: 100%;
-}
-
-#gallery img:hover {
-	opacity: 1;
-} */
 
 .grid {
 	display: grid;
@@ -175,8 +157,13 @@ h4 {
 	letter-spacing: 20px;
 }
 
-.social, .contact p {
+#footer p {
 	font-weight: bold;
+	padding-left: 40px;
+}
+
+#footer i {
+	margin-right: 5px;
 }
 
 .contact {
@@ -191,5 +178,4 @@ h4 {
 
 .footer-content {
 	text-align: center;
-	/* margin-top: 100px; */
 }
