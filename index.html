@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Game Station</title>
-  <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+  <title>TheGameStation</title>
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Tomorrow:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,700&display=swap" rel="stylesheet">
@@ -24,43 +24,56 @@
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#about">About</a>
       <a class="nav-item nav-link" href="#gallery">Gallery</a>
-      <a class="nav-item nav-link" href="#contact">Contact</a>
+      <a class="nav-item nav-link" href="#team">Team</a>
+      <a class="nav-item nav-link" href="#footer">Contact</a>
       </div>
     </div>
   </div>
 </nav>
 
 <section class="homepage-background">
-  <img src="assets/img/logo-a.png">
-	<h4 class="mb-5">Drop in. Start up. Game on.</h4>
+  <img src="assets/img/logo.png">
+	<h4 class="mb-5 mt-3">Drop in. Start up. Game on.</h4>
 
 <a href="#about" class="btn btn-gsprimary">Press Start</a>
 </section>
 
+<!-- ABOUT -->
+
 <section id="about">
-	<h3>What is TheGameStation?</h3>
+<h3>What is TheGameStation?</h3>
   <div class="row">
-    <div class="col-md p-4">
-    <center><i class="fas fa-gamepad fa-3x"></i></center><br>
-      <h4>Play</h4>
-      <p>Our ever-expanding games library includes titles of new and old. With consoles such as Xbox One, Nintendo Switch, Oculus Rift and several mini consoles.</p>
+    <div class="features">
+      <div class="col-md p-4">
+        <i class="fas fa-gamepad fa-3x"></i>
+          <h4>Play</h4>
+            <p>Our ever-expanding games library includes titles of new and old. With consoles such as Xbox One, Nintendo Switch, Oculus Rift and several mini consoles.</p>
     </div>
-    <div class="col-md p-4">
-    <center><i class="fas fa-birthday-cake fa-3x"></i></center><br>
-      <h4>Options</h4>
-      <p>We host from a range of different events such as birthday parties, stag dos, corporate, weddings - you name it!</p>
+  </div>
+
+    <div class="features">
+      <div class="col-md p-4">
+        <i class="fas fa-birthday-cake fa-3x"></i>
+          <h4>Options</h4>
+            <p>We will host a range of different events such as birthday parties, stag dos, corporate, weddings - you name it!</p>
     </div>
-    <div class="col-md p-4">
-    <center><i class="fas fa-map fa-3x"></i></center><br>
-     <h4>Location</h4>
-      <p>We travel all across Norfolk to bring you our unique services.</p>
+  </div>
+
+    <div class="features">
+      <div class="col-md p-4">
+        <i class="fas fa-map fa-3x"></i>
+          <h4>Location</h4>
+            <p>We travel all across Norfolk to bring you our unique services.</p>
     </div>
+  </div>
 </div>
 </section>
 
+<!-- GALLERY -->
+
 <section id="gallery">
   <h3>A peek inside the van</h3>
-  <div class="row">
+  <!-- <div class="row">
   <div class="col-md-3"><img src="assets/img/van2.jpg"></div>
   <div class="col-md-6"><img src="assets/img/van1.jpg"></div>
   <div class="col-md-3"><img src="assets/img/inside7.jpg"></div>
@@ -68,37 +81,96 @@
   <div class="col-md-3"><img src="assets/img/inside2.jpg"></div>
   <div class="col-md-3"><img src="assets/img/inside3.jpg"></div>
   <div class="col-md-3"><img src="assets/img/inside1.jpg"></div>
+</div> -->
+
+<div class="grid">
+  <div class="item" style="background-image: url(assets/img/inside1.jpg)"></div>
+  <div class="item" style="background-image: url(assets/img/van1.jpg)"></div>
+  <div class="item" style="background-image: url(assets/img/van2.jpg)"></div>
+  <div class="item" style="background-image: url(assets/img/xbox.jpg)"></div>
+  <div class="item" style="background-image: url(assets/img/van3.jpg)"></div>
 </div>
 </section>
 
-<section id="meet-owners">
+<!-- MEET THE TEAM -->
+
+<section id="team">
 <h3>Meet The Owners</h3>
 
 <div class="row">
   <div class="col-md-3 offset-md-2"><img src="https://placekitten.com/200/200" alt="">
   <h3>James</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+  <ul>
+    <li>Favourite game: Final Fantasy 7</li>
+    <li>First game: Lion King on the Sega Megadrive</li>
+    <li>Favourite console: Playstation 2</li>
+    <li>First console: Sega Megadrive</li>
+    <!-- <li>Favourite streamer? ChocoTaco</li> -->
+    <!-- <li>Favourite Xbox game? Star Wars: Knights of the old republic. Amazing RPG on the original Xbox</li> -->
+    <li>Favourite Xbox character: Ori</li>
+    <!-- <li>Favourite PlayStation game? God of War (2018)</li> -->
+    <li>Favourite PlayStation character: Lara Croft</li>
+    <!-- <li>Favourite Nintendo game? The Legend of Zelda: The Wind Waker</li> -->
+    <li>Favourite Nintendo character: Pikachu</li>
+    <li>Favourite genre: RPGs all day!</li>
+    <!-- <li>Game you’re playing at the moment? Final Fantasy 7 Remake on PS4. Just finished both games in the Ori series on Xbox and they blew me away</li> -->
+    <li>Gamerscore: 185,781 G</li>
+    <!-- <li>Trophies? Only console exclusives...8 Golds, 40 Silvers and 301 Bronze</li> -->
+    <!-- <li>Time Stealer? I’ve put ungodly hours into FIFA & PUBG</li> -->
+  </ul>
   </div>
   <div class="col-md-3 offset-md-2"><img src="https://placekitten.com/200/200" alt="">
   <h3>Jamie</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+  <ul>
+    <li>Favourite game: Super Metroid</li>
+    <li>First game: Alex The Kid on Sega Megadrive</li>
+    <li>Favourite console: Xbox 360</li>
+    <li>First console: Sega Megadrive</li>
+    <!-- <li>Favourite streamer? Dr Disrespect</li> -->
+    <!-- <li>Favourite Xbox game? BioShock on the Xbox 360 was awesome</li> -->
+    <li>Favourite Xbox character: Ori</li>
+    <!-- <li>Favourite PlayStation game? God of War (2018)</li> -->
+    <li>Favourite PlayStation character: Kratos</li>
+    <!-- <li>Favourite Nintendo game? Super Metroid</li> -->
+    <li>Favourite Nintendo character: Link from the Legend of Zelda</li>
+    <li>Favourite genre: Platformers</li>
+    <!-- <li>Game you’re playing at the moment? Cod: War zone</li> -->
+    <li>Gamerscore: 178,372 G</li>
+    <!-- <li>Trophies? Not many!</li> -->
+    <!-- <li>Time Stealer? Pubg for far far too long</li> -->
+  </ul>
 </div>
 </div>
-
 </section>
 
-<section id="contact">
-  <p>thegamestationguys@hotmail.com</p>
+<!-- FOOTER -->
+
+<footer id="footer">
 
   <div class="row">
-    <div class="col-md-2 offset-3"><a href="https://www.facebook.com/TheGameStationLTD"><i class="fab fa-facebook-f fa-2x"></i></a></div>
-    <div class="col-md-2"><a href="https://twitter.com/TGS_Norwich"><i class="fab fa-twitter fa-2x"></i></a></div>
-    <div class="col-md-2"><a href="https://www.instagram.com/thegamestation_norwich/"><i class="fab fa-instagram fa-2x"></i></a></div> 
-</div>
+    <div class="col-1-of-2">
+        <ul class="contact">
+          <p>Contact us:</p>
+          <li><i class="fas fa-envelope"></i><span>thegamestationguys@hotmail.com</span></li>
+          <li><i class="fas fa-phone"></i><span>07777777777</span></li>
+    </div>
+  
+</ul>
+
+    <div class="col-1-of-2">
+      <ul class="social">
+        <p>Connect with us:</p>
+        <li><a href="https://www.facebook.com/TheGameStationLTD"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/TGS_Norwich"><i class="fab fa-twitter fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/thegamestation_norwich/"><i class="fab fa-instagram fa-2x"></i></a></li>
+    </ul>
+  </div>
 </div>
 
-<p>© TheGameStation LTD</p>
-</section>
+<div class="footer-content">&copy; 2020 TheGameStation LTD</div>
+</footer>
+
+<!-- SCRIPTS -->
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
