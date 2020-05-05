@@ -24,19 +24,24 @@ h4 {
 
 .homepage-background {
 	background: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("assets/img/switch.jpg") no-repeat fixed center;
-	padding: 180px 0;
+	padding: 200px 0;
 	text-align: center;
 	color: white;
 }
 
 .navbar-nav .nav-item.nav-link,
-.navbar-nav .nav-item.nav-link:hover,
 .navbar-nav .nav-item.nav-link:focus{
 	color: white;
 	font-weight: bold;
 	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+.navbar-nav .nav-item.nav-link:hover {
+	color: #000000;
 }
 
 .btn-gsprimary,
@@ -58,6 +63,8 @@ h4 {
 	transition: 0.5s;
 }
 
+/* ABOUT */
+
 #about {
 	padding: 60px;
 	text-align: center;
@@ -78,6 +85,8 @@ h4 {
 	padding-bottom: 15px;
 }
 
+/* GALLERY */
+
 #gallery {
 	padding-bottom: 80px;
 }
@@ -85,10 +94,10 @@ h4 {
 .grid {
 	display: grid;
 	grid-template-rows: 
-	  repeat(4, 180px);
+	  repeat(4, 280px);
 	grid-template-columns: 
 	  repeat(3, 1fr);
-	grid-gap: 5px;
+	grid-gap: 10px;
   }
   
   .item:nth-child(1) {
@@ -118,8 +127,8 @@ h4 {
   /* styling code */
   
   .grid {
-	margin:20px auto;
-	max-width:1000px;
+	margin:30px auto;
+	max-width:1300px;
 	padding-top: 30px;
   }
   
@@ -129,8 +138,11 @@ h4 {
 	background-size: cover;
   }
 
+/* MEET THE TEAM */
+
 #team {
 	padding-bottom: 80px;
+	background-color: #FCFCFC;
 }
 
 #team img {
@@ -139,43 +151,62 @@ h4 {
 	margin: 30px 0;
 }
 
+.fav-icons {
+	text-align: center;
+	letter-spacing: 9px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
 #team li {
 	width: 500px;
+	list-style: none;
 }
+
+#team span {
+	font-weight: bold;
+}
+
+
+/* FOOTER */
+
+#footer {
+	padding: 25px;
+	background: #0C1A31;
+	color: white;
+	text-align: center;
+}
+
+.email {
+	font-size: 1.3rem;
+}
+
+.email a {
+	color: #fff;
+	font-size: 1.3rem;
+	font-weight: bold;
+	letter-spacing: .1rem;
+}
+
+.email a:hover {
+	text-decoration: none;
+  }
 
 .fa-facebook-f, .fa-twitter, .fa-instagram {
 	color: white;
-	transition: all .2s ease-in-out;
-}
-
-.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {
-	color: #17C3F6;
+	margin-top: 2rem;
+	letter-spacing: 50px;
 }
 
 .social li {
 	display: inline-block;
-	letter-spacing: 20px;
 }
 
-#footer p {
-	font-weight: bold;
-	padding-left: 40px;
-}
-
-#footer i {
-	margin-right: 5px;
-}
-
-.contact {
-	list-style: none;
-}
-
-#footer {
-	padding: 30px;
-	background: #0C1A31;
-	color: white;
-}
-
-.footer-content {
-	text-align: center;
+.copyright {
+	margin-top: 1.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+	font-weight: none;
+	color: #f9f7f6;
 }
