@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TheGameStation</title>
-  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Tomorrow:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="gamestation.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#home">Home</a>
             <a class="nav-item nav-link" href="#about">About</a>
             <a class="nav-item nav-link" href="#gallery">Gallery</a>
             <a class="nav-item nav-link" href="#team">Team</a>
@@ -34,11 +34,12 @@
     </div>
   </nav>
 
-  <section class="homepage-background">
+  <section id="home">
+    <div class="background">
     <img src="assets/img/logo.png">
     <h4 class="mb-5 mt-3">Drop in. Start up. Game on.</h4>
-
     <a href="#about" class="btn btn-gsprimary">Press Start</a>
+  </div>
   </section>
 
   <!-- ABOUT -->
@@ -90,34 +91,24 @@
     <div class="row">
       <div class="col-md-3 offset-md-2"><img src="https://placekitten.com/200/200" alt="">
         <h3>James</h3>
-        <div class="fav-icons">
-          <i class="fab fa-playstation"></i>
-          <i class="fas fa-hat-wizard"></i>
-          <i class="fas fa-futbol"></i>
-        </div>
         <ul>
           <li><span>Favourite game:</span> Final Fantasy 7</li>
           <li><span>First console:</span> Sega Megadrive</li>
           <li><span>Favourite Xbox character:</span> Ori</li>
           <li><span>Favourite PlayStation character:</span> Lara Croft</li>
           <li><span>Favourite Nintendo character:</span> Pikachu</li>
-          <li><span>Gamerscore:</span> 185,781 G</li>
+          <li><span>Favourite genre:</span> RPGs</li>
         </ul>
       </div>
       <div class="col-md-3 offset-md-2"><img src="https://placekitten.com/200/200" alt="">
         <h3>Jamie</h3>
-        <div class="fav-icons">
-          <i class="fab fa-xbox"></i>
-          <i class="fas fa-pastafarianism"></i>
-          <i class="fas fa-star"></i>
-        </div>
         <ul>
-          <li><span>Favourite game:</span> Super Metroid</li>
-          <li><span>First console:</span> Sega Megadrive</li>
-          <li><span>Favourite Xbox character:</span> Ori</li>
-          <li><span>Favourite PlayStation character:</span> Kratos</li>
-          <li><span>Favourite Nintendo character:</span> Link from the Legend of Zelda</li>
-          <li><span>Gamerscore:</span> 178,372 G</li>
+            <li><span>Favourite game:</span> Super Metroid</li>
+            <li><span>First console:</span> Sega Megadrive</li>
+            <li><span>Favourite Xbox character:</span> Ori</li>
+            <li><span>Favourite PlayStation character:</span> Kratos</li>
+            <li><span>Favourite Nintendo character:</span> Link</li>
+            <li><span>Favourite genre:</span> Platformers</li>
         </ul>
       </div>
     </div>
@@ -127,24 +118,19 @@
 
   <footer id="footer">
     <p class="email">Let's talk! <a href="mailto:thegamestationguys@hotmail.com">thegamestationguys@hotmail.com</a></p>
-
     <ul class="social">
       <li><a href="https://www.facebook.com/TheGameStationLTD"><i class="fab fa-facebook-f fa-2x"></i></a></li>
       <li><a href="https://twitter.com/TGS_Norwich"><i class="fab fa-twitter fa-2x"></i></a></li>
       <li><a href="https://www.instagram.com/thegamestation_norwich/"><i class="fab fa-instagram fa-2x"></i></a></li>
     </ul>
-
     <p class="copyright">&copy; Copyright 2020 | TheGameStation LTD.</p>
   </footer>
 
   <!-- SCRIPTS -->
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
-    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="gamestation.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/gameStation.js"></script>
 </body>
 
 </html>
