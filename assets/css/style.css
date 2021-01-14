@@ -10,85 +10,27 @@ body {
   scroll-behavior: smooth;
 }
 
-.nav {
-  background-color: #fff;
-  position: fixed;
-  padding: 70px 50px;
-  width: 100%;
-  display: none;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-}
+/* Hero section */
 
-.nav-toggle {
-  position: fixed;
-  z-index: 100;
-  top: 10px;
-  right: 10px;
-  background-color: transparent;
-  color: #000000;
-  font-size: 30px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.nav-list {
-  list-style-type: none;
-  text-align: right;
-}
-
-.nav-list li {
-  margin-bottom: 5px;
-}
-
-.nav-content {
-  float: right;
-}
-
-.nav-links {
-  color: #000000;
-  font-family: tomorrow;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.nav-links:hover {
-  color: #333333;
-}
-
-.nav-social .fab {
-  color: #fff;
-  font-size: 20px;
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../img/test1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
-  align-items: right;
-  padding: 10px;
-  margin: 12px 0 0 5px;
-  width: 40px;
-  border-radius: 50%;
+  height: 100vh;
+  padding-top: 80px;
 }
 
-.nav-social .fab:hover {
-  color: #fff;
-}
-
-.fa-nav-f {
-  background-color: #395598;
-}
-
-.fa-nav-t {
-  background-color: #1d9eeb;
-}
-
-.fa-nav-i {
-  background-color: #c8245d;
-}
-
-h1 {
-  color: #000000;
-  font-family: tomorrow;
-  font-size: 40px;
-  text-transform: uppercase;
-  padding: 30px 0;
+.logo {
+  width: 680px;
+  height: 465px;
 }
 
 h2 {
@@ -96,29 +38,6 @@ h2 {
   font-family: tomorrow;
   text-transform: uppercase;
   padding: 30px 0 40px 0;
-}
-
-h3 {
-  color: #000000;
-  font-family: tomorrow;
-  font-size: 21px;
-  text-transform: uppercase;
-}
-
-#header {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("../img/nintendo-switch-joycons.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  height: 100vh;
-  padding-top: 100px;
 }
 
 .start-button,
@@ -143,27 +62,69 @@ h3 {
   box-shadow: 0px 0px 40px #17c3f6;
 }
 
-#about {
+/* About section */
+
+h1 {
+  color: #000000;
+  font-family: tomorrow;
+  font-size: 55px;
   text-align: center;
-  padding: 30px 0 30px 0;
+  text-transform: uppercase;
+  padding-top: 80px;
+  margin-bottom: 60px;
 }
 
-#about p,
-#about i,
-#about h3 {
+.van {
+  width: 100%;
+}
+
+.text-box {
+  font-family: tomorrow;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 150px;
+  margin-inline-end: 150px;
+}
+
+.text-box span {
+  font-weight: 500;
+}
+
+/* Features section */
+
+.features {
+  text-align: center;
+  font-weight: 300;
+  padding: 40px 0;
+}
+
+.features p,
+.features i,
+.features h3 {
   margin-bottom: 15px;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
+h3 {
+  color: #000000;
+  font-size: 22px;
+  font-family: tomorrow;
+  text-transform: uppercase;
 }
 
-.flex-item {
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.feature-item {
   flex: 1;
   width: 32%;
-  padding: 0 40px 0 40px;
+  padding: 0 40px;
 }
 
 .fa-gamepad {
@@ -178,97 +139,161 @@ h3 {
   color: #1cb58a;
 }
 
-#gallery {
+/* Gallery section */
+
+.gallery {
   text-align: center;
-  padding: 30px 0 30px 0;
+  padding: 20px 0;
 }
 
-.container {
+.gallery-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#gallery img {
+.gallery img {
   margin: 5px;
-  transition: all 1s;
+  transition: all 0.2s;
 }
 
-#gallery img:hover {
+.gallery img:hover {
   transform: scale(1.1);
 }
 
-#team {
-  text-align: center;
+/* Team Section */
+
+.owners {
+  padding-bottom: 100px;
 }
 
-#team img {
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  margin: 30px 0;
+.team-title {
+  font-size: 28px;
+  margin-bottom: 8px;
 }
 
-#team ul {
-  width: 50%;
-  margin: 0 auto;
+.team-bio {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 8px;
 }
 
-#team li {
+.members ul {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.owners li {
   list-style-type: none;
-  text-align: left;
-  padding-bottom: 5px;
 }
 
-#team span {
+.members span {
   font-weight: bold;
 }
 
-#footer {
-  background-color: #0c1a31;
-  color: #ffffff;
+.members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unit {
+  display: inherit;
+  align-items: center;
+}
+
+.more {
+  display: inherit;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.more2 {
+  text-align: right;
+  margin-right: 15px;
+}
+
+.unit img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.unit:nth-child(1) {
+  flex-direction: row;
+}
+
+.unit:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+/* Footer section */
+
+.footer {
+  background-color: #f2f2f2;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-#footer p {
-  padding: 25px;
+.footer-logo {
+  width: 300px;
+  height: 205px;
+  margin: 25px 0;
 }
 
-.email {
+.footer p {
+  padding: 15px;
+}
+
+.booking {
   font-size: 20px;
 }
 
-.email a {
-  color: #ffffff;
-  font-weight: bold;
+.contact {
+  display: inline-flex;
+  align-items: center;
+}
+
+.copyright {
+  font-weight: 300;
+}
+
+.copyright a:visited,
+a:link,
+a:active {
   text-decoration: none;
-  letter-spacing: 0.05rem;
+  color: #000;
+  font-weight: 400;
 }
 
 .footer-social .fab {
-  background-color: #ffffff;
-  color: #000000;
-  font-size: 30px;
+  color: #fff;
+  font-size: 20px;
   text-align: center;
+  align-items: right;
   padding: 10px;
-  width: 50px;
-  margin: 5px 12px;
+  margin: 20px 5px;
+  width: 40px;
   border-radius: 50%;
+  transition: 0.2s ease-in-out;
 }
 
-.fa-facebook-f:hover {
-  color: #395598;
+.footer-social .fab:hover {
+  transform: scale(1.2);
 }
 
-.fa-twitter:hover {
-  color: #1d9eeb;
+.fa-footer-f {
+  background-color: #395598;
 }
 
-.fa-instagram:hover {
-  color: #c8245d;
+.fa-footer-t {
+  background-color: #1d9eeb;
+}
+
+.fa-footer-i {
+  background-color: #c8245d;
 }
 
 /********************************** Media Queries **********************************/
@@ -279,68 +304,48 @@ h3 {
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
-  .flex-container {
+  .feature-container {
     display: block;
   }
 
-  .flex-item {
+  .feature-item {
     width: 100%;
   }
 
-  #gallery img {
-    width: 100%;
+  .gallery img {
+    width: 50%;
   }
 
-  #team img {
-    width: 200px;
-    height: 200px;
-  }
-
-  #team ul {
-    width: 100%;
-    font-size: 12px;
-    margin: 0 auto;
-  }
-
-  .email {
-    font-size: 16px;
-  }
-
-  #footer p {
+  .footer p {
     font-size: 14px;
   }
 
   .logo {
-    width: 250px;
-    height: 172px;
+    width: 450px;
+    height: 308px;
   }
 }
 
 @media (max-width: 780px) {
-  .flex-item {
-    font-size: 14px;
+  h1 {
+    font-size: 45px;
   }
 
-  #gallery img {
-    width: 100%;
+  .text-box {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 25px;
   }
 
-  #team img {
-    width: 200px;
-    height: 200px;
-  }
-
-  #team ul {
-    width: 100%;
-    padding: none;
-    margin: 0 auto;
-    padding: 0 40px;
+  .gallery img {
+    width: 75%;
   }
 }
